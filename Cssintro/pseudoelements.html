@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            color:blue;
+            front-variant:small-caps;
+        }
+        p::first-letter{
+            color:red;
+            font-size:xx-large;
+        }
+        h1::before{
+            content:() 
+            background-image:url(/cute.dog);
+        }
+        h2::after{
+            content:url(pinky.jpg);
+        }
+        ::marker{
+            color:red;
+            font: size 23px;
+        }
+        ::selection{
+            color:red;
+            background-color:yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia porro quia atque culpa consequatur laboriosam!</p>
+    <h1>smile</h1>
+    <br>
+    <h2>smile</h2>
+    <br>
+    <ul>
+        <li>coffee</li>
+        <li>Tea</li>
+        <li>milk</li>
+    </ul>
+    <ol>
+        <li>First</li>
+        <li>second</li>
+        <li>Third</li>
+    </ol>
+    <p>This is a paragraph</p>
+    <div>This is a some text in a div element.</div>
+</body>
+</html>
